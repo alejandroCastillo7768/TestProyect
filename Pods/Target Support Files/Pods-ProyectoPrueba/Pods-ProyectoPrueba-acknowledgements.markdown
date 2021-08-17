@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ModelsModule
+## MyLib
 
 Copyright (c) 2021 alejandroCastillo7768 <alejandro.castillo@fluxit.com.ar>
 

@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import ModelsModule
 
 class InitialViewController: UIViewController {
 

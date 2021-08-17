@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ModelsModuleVersionNumber;
-FOUNDATION_EXPORT const unsigned char ModelsModuleVersionString[];
+FOUNDATION_EXPORT double MyLibVersionNumber;
+FOUNDATION_EXPORT const unsigned char MyLibVersionString[];
 

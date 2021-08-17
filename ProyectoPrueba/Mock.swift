@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import ModelsModule
+import MyLib
 
 enum Mock {
     
@@ -15,6 +15,7 @@ enum Mock {
         
         enum Icons {
             static let square = UIImage(systemName: "square")!
+//            static let square = #imageLiteral(resourceName: "cart.png")
         }
         
         static func getProducts() -> [Product] {
