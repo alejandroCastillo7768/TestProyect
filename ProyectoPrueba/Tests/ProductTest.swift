@@ -32,7 +32,7 @@ class ProductTest: XCTestCase {
     }
     
     func testPrintLine() {
-        XCTAssert(valueToPrint != nil)
+        XCTAssert(valueToPrint == nil)
     }
 
 }
