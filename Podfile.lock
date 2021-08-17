@@ -1,0 +1,21 @@
+PODS:
+  - ModelsModule (0.1.0)
+
+DEPENDENCIES:
+  - ModelsModule (from `https://github.com/alejandroCastillo7768/ModelsModule.git`)
+
+EXTERNAL SOURCES:
+  ModelsModule:
+    :git: https://github.com/alejandroCastillo7768/ModelsModule.git
+
+CHECKOUT OPTIONS:
+  ModelsModule:
+    :commit: 7023f5552e0be808ed0ac45fecd1b591fb15afd6
+    :git: https://github.com/alejandroCastillo7768/ModelsModule.git
+
+SPEC CHECKSUMS:
+  ModelsModule: 6edc97be67461846edd024f3cf8e1201b56d13e9
+
+PODFILE CHECKSUM: e0f09517a1a814d91b2560c771d5e6968707ddff
+
+COCOAPODS: 1.10.2

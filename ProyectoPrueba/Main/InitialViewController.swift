@@ -6,11 +6,19 @@
 //
 
 import UIKit
+import ModelsModule
 
 class InitialViewController: UIViewController {
 
+    private var productsMock = Mock.Products.getProducts()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
     }
+}
+
+
+extension InitialViewController {
+    
 }
