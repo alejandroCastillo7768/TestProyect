@@ -326,7 +326,6 @@
 		D5918CC826CC546000730C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ34D2LM93;
 				INFOPLIST_FILE = ProyectoPruebaTests/Info.plist;
@@ -347,7 +346,6 @@
 		D5918CC926CC546000730C02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NZ34D2LM93;
 				INFOPLIST_FILE = ProyectoPruebaTests/Info.plist;

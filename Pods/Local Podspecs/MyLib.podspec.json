@@ -20,5 +20,17 @@
   "platforms": {
     "ios": "13.0"
   },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Example/Tests/**/*.{h,m,swift}",
+      "ios": {
+        "resources": [
+          "Example/Tests/**/*.{json}"
+        ]
+      }
+    }
+  ],
   "swift_version": "5.0"
 }

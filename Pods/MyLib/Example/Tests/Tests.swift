@@ -1,17 +1,11 @@
-//
-//  ProductTest.swift
-//  ProyectoPrueba
-//
-//  Created by Alejandro Castillo on 17/08/2021.
-//
-
 import XCTest
+import MyLib
 
+class ShoppingCartTest: XCTestCase {
 
-class ProductTest: XCTestCase {
+    let product  = Product(id: 1, title: "Some product", price: 100.00, image: UIImage(systemName: "square")!)
+    let product2 = Product(id: 2, title: "Some product", price: 200.00, image: UIImage(systemName: "square")!)
     
-    let valueToPrint: String? = "Hello World!!!"
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -32,8 +26,14 @@ class ProductTest: XCTestCase {
         }
     }
     
-    func testPrintLine() {
-        XCTAssert(valueToPrint != nil)
+    func testTotalPriceFromShoppingCart() {
+        ShoppingCart.shared.addProductToCart(product: product)
+        ShoppingCart.shared.addProductToCart(product: product2)
+        
+        XCTAssert(ShoppingCart.shared.totalPrice == 300)
     }
 
+    func testTitleFromShoppingCart() {
+        XCTAssert(ShoppingCart.shared.getCart().count >= 0)
+    }
 }

@@ -1,8 +1,10 @@
 PODS:
   - MyLib (0.0.2)
+  - MyLib/Tests (0.0.2)
 
 DEPENDENCIES:
   - MyLib (from `https://github.com/alejandroCastillo7768/MyLib.git`)
+  - MyLib/Tests (from `https://github.com/alejandroCastillo7768/MyLib.git`)
 
 EXTERNAL SOURCES:
   MyLib:
@@ -10,12 +12,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MyLib:
-    :commit: cfe38cb462458c1106c667831fe095dba1b89b19
+    :commit: f166be65cc78387423ade801270ef5e425b9c689
     :git: https://github.com/alejandroCastillo7768/MyLib.git
 
 SPEC CHECKSUMS:
-  MyLib: d550820e288ce734f81e7b89c4d32ae5ee7f692c
+  MyLib: 5d6abc9dd23aad11dbcf3e2bb4e0846044ed121b
 
-PODFILE CHECKSUM: 9cda6f880e145663189e27ce0c514765aedcd83e
+PODFILE CHECKSUM: dd44da2cbc7da0b3337f571253cf4deb9e776a5e
 
 COCOAPODS: 1.10.2

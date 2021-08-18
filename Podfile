@@ -6,7 +6,7 @@ target 'ProyectoPrueba' do
   use_frameworks!
 
 # pod 'ModelsModule', :git => 'https://github.com/alejandroCastillo7768/ModelsModule.git'
-pod 'MyLib', :git => 'https://github.com/alejandroCastillo7768/MyLib.git'
+pod 'MyLib', :git => 'https://github.com/alejandroCastillo7768/MyLib.git', :testspecs => ['Tests']
   # Pods for ProyectoPrueba
 
 end
