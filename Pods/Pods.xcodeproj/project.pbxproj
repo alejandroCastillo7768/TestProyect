@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2809F471718ECC944CE27C226A7331A9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B167FB4B3784393F8AD8B27C327645 /* Product.swift */; };
-		43A24AF445C87B2634C00A39DCFE07A1 /* MyLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8CBDF84B18510E105B1B4C24E6AD710 /* MyLib-dummy.m */; };
-		66E64882F33E2E5009153D7B005B0815 /* MyLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F83545F061170AA31C92C044E37E9F75 /* MyLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77B66D5F8DD2126E35302E8F4B2FAC82 /* ProductTableViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDBA8665004249C38A85F4CD269E3 /* ProductTableViewController.xib */; };
-		892A691ECBDDA120DE79814E1526A3D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455A88493834861B277B4CE5F72EC7F /* Foundation.framework */; };
-		9F3C34EEC05506242CD4C08374A2D6F1 /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11D0841287DBE4A12B88F40FA65F004 /* MyLib.framework */; };
+		06ED0693425CB87C0CB659481DF316BE /* MyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11D0841287DBE4A12B88F40FA65F004 /* MyLib.framework */; };
+		16F793006C583FE7EFE555D0516975C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455A88493834861B277B4CE5F72EC7F /* Foundation.framework */; };
+		23869652CDB35D85BE22F55540CB6627 /* ShoppingCartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB90871D3134F1CC0AF6C1715CCB733 /* ShoppingCartTests.swift */; };
+		24AEA13A5B8899525DF805E2C00EC38C /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1DC53B6F91A1EE320D8ABE7D048999 /* ProductTests.swift */; };
+		2809F471718ECC944CE27C226A7331A9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D53E9A8FB4240B324FF81A4365252A /* Product.swift */; };
+		43A24AF445C87B2634C00A39DCFE07A1 /* MyLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0755E2208E876585207C193420DD5C /* MyLib-dummy.m */; };
+		66E64882F33E2E5009153D7B005B0815 /* MyLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB615E0A1F017037320BB6D8E41DBCC /* MyLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77B66D5F8DD2126E35302E8F4B2FAC82 /* ProductTableViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BE7D4378685E4833DB74D2C394900A74 /* ProductTableViewController.xib */; };
+		809F70632F144B6D40E6C8EA0192D3DA /* MyLib_Tests-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = E18D34DCBD019CF4FDC7EA3F31E1476E /* MyLib_Tests-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1A5B5387DD2E5799C721BF8C28162CA /* Pods-ProyectoPrueba-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481641A3CCD0D266DDFE8A98829E5B32 /* Pods-ProyectoPrueba-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C743399F870D7374C914F7F06B45BB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455A88493834861B277B4CE5F72EC7F /* Foundation.framework */; };
 		C9BA2802DCEC5BC264D4150B90A2052A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455A88493834861B277B4CE5F72EC7F /* Foundation.framework */; };
-		D50602C426CDC127009B36F7 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FD9DDD63BAF734B8793B96C2061DA /* Tests.swift */; };
-		DFD7D431F17694A9F015DC80DDD59BEB /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230846A75008AC8E4983B76BC44EBC5 /* ProductTableViewController.swift */; };
+		DFD7D431F17694A9F015DC80DDD59BEB /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D36C2C719DB4685E233BE6813F10F0 /* ProductTableViewController.swift */; };
 		F05DCCC6632B9EBFB540F2DAA6FAC63C /* Pods-ProyectoPrueba-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 240870FD4FD699B08C3EC48417E6EFD7 /* Pods-ProyectoPrueba-dummy.m */; };
-		FE68C3F2B392B5718665EEB8C01E392C /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E4C5D27D8BE2618382965D3CE1932 /* ShoppingCart.swift */; };
+		FE68C3F2B392B5718665EEB8C01E392C /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E372C608F49847200674BCDE1DB1611 /* ShoppingCart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E2D9242C90415F0AD770EF9EEF11AB65 /* PBXContainerItemProxy */ = {
+		07149B991C83F63B4DF0C72200C85DAA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D19070F549C404143C4444755161EC8C;
 			remoteInfo = MyLib;
 		};
-		EFC62B320E99CF87F1AE5F40929C64AF /* PBXContainerItemProxy */ = {
+		19EDFADC0DE3696ED914A0486733743E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,47 +42,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B167FB4B3784393F8AD8B27C327645 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = MyLib/Classes/Model/Product.swift; sourceTree = "<group>"; };
-		0230846A75008AC8E4983B76BC44EBC5 /* ProductTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductTableViewController.swift; path = MyLib/Classes/ProductTableView/ProductTableViewController.swift; sourceTree = "<group>"; };
+		00C0083DBAF9C09747BFE722CFF707B4 /* MyLib-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
 		0D698A69ECFADF939430DAF2584B80C7 /* Pods-ProyectoPrueba-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyectoPrueba-acknowledgements.plist"; sourceTree = "<group>"; };
-		15E47E56D377E51FBC038AAC8B99C790 /* MyLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLib.modulemap; sourceTree = "<group>"; };
 		1C67CBF38C49351E7D8B8E39A6EFCC15 /* Pods-ProyectoPrueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyectoPrueba.debug.xcconfig"; sourceTree = "<group>"; };
+		1E372C608F49847200674BCDE1DB1611 /* ShoppingCart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShoppingCart.swift; path = MyLib/Classes/Model/ShoppingCart.swift; sourceTree = "<group>"; };
 		1EB6A6E8CA1E827CF30180CD97459C86 /* Pods-ProyectoPrueba-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProyectoPrueba-frameworks.sh"; sourceTree = "<group>"; };
 		240870FD4FD699B08C3EC48417E6EFD7 /* Pods-ProyectoPrueba-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProyectoPrueba-dummy.m"; sourceTree = "<group>"; };
 		288D234D7A36F70C9B9735DFAE38B5AD /* MyLib-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MyLib-Unit-Tests"; path = "MyLib-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F2FD9DDD63BAF734B8793B96C2061DA /* Tests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tests.swift; path = Example/Tests/Tests.swift; sourceTree = "<group>"; };
-		435105114C10461E5B85D4185B9B4A5B /* MyLib-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MyLib-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2FF1D4F497B91D5203B6191F8BE4A21F /* MyLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLib.release.xcconfig; sourceTree = "<group>"; };
 		481641A3CCD0D266DDFE8A98829E5B32 /* Pods-ProyectoPrueba-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProyectoPrueba-umbrella.h"; sourceTree = "<group>"; };
-		4B3E4C5D27D8BE2618382965D3CE1932 /* ShoppingCart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShoppingCart.swift; path = MyLib/Classes/Model/ShoppingCart.swift; sourceTree = "<group>"; };
-		53F1207F1F47DDF29189F3EF6241C7DD /* MyLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLib.release.xcconfig; sourceTree = "<group>"; };
-		58ECDBA8665004249C38A85F4CD269E3 /* ProductTableViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ProductTableViewController.xib; path = MyLib/Classes/ProductTableView/ProductTableViewController.xib; sourceTree = "<group>"; };
-		5BC372D1CB76837DD9A19C6461531802 /* MyLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLib.debug.xcconfig; sourceTree = "<group>"; };
-		5CAA5909A9660F718A39A2F8D5D4E524 /* MyLib.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MyLib.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6533E237BA68936072192A5E5918251F /* MyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74D67FE5523ED4CC3E258DBA6D9883AE /* MyLib.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MyLib.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
-		7BB6EB9CE570D5E0CC0B5DCBFA98FB7A /* MyLib-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLib-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
-		7FF103140C84E07687CF0499FD590091 /* MyLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-prefix.pch"; sourceTree = "<group>"; };
+		4B068EDCCAA330A9B56DDACD88075802 /* MyLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-prefix.pch"; sourceTree = "<group>"; };
+		4B0755E2208E876585207C193420DD5C /* MyLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLib-dummy.m"; sourceTree = "<group>"; };
+		60D36C2C719DB4685E233BE6813F10F0 /* ProductTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductTableViewController.swift; path = MyLib/Classes/ProductTableView/ProductTableViewController.swift; sourceTree = "<group>"; };
+		61C9B6037B5D614DA6C868C27C22416B /* MyLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLib.debug.xcconfig; sourceTree = "<group>"; };
+		61D53E9A8FB4240B324FF81A4365252A /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = MyLib/Classes/Model/Product.swift; sourceTree = "<group>"; };
+		62F1DB91513CB70403BB7901D16E5226 /* MyLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyLib.modulemap; sourceTree = "<group>"; };
+		6533E237BA68936072192A5E5918251F /* MyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyLib.framework; path = MyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B21E64C2FE902DF52728586CA4208D /* MyLib-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MyLib-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7A1DC53B6F91A1EE320D8ABE7D048999 /* ProductTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductTests.swift; path = Example/Tests/ProductTests.swift; sourceTree = "<group>"; };
+		7ABED9C978FF3C0D6CAE95ED35C55B44 /* MyLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLib-Info.plist"; sourceTree = "<group>"; };
+		87F3B155C8C2AD9CAF2F666946AB2655 /* MyLib.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MyLib.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94D5A34E8430102A5E2B442D3558C709 /* MyLib-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLib-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
 		9A7BBE2D28BB289E57C3E591FFED87D7 /* Pods-ProyectoPrueba.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProyectoPrueba.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8CBDF84B18510E105B1B4C24E6AD710 /* MyLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLib-dummy.m"; sourceTree = "<group>"; };
-		AACFAFC2D849CD26E7017B6DA2A3B82B /* MyLib-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B24945E9EEE349DD56ED73781A5CCCA0 /* MyLib.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MyLib.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
 		B514F6007561E4D119C4CE44090C8AC9 /* Pods-ProyectoPrueba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProyectoPrueba.release.xcconfig"; sourceTree = "<group>"; };
 		B88E84D3B0304A4986FD0845C1D6F3DB /* Pods-ProyectoPrueba-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProyectoPrueba-Info.plist"; sourceTree = "<group>"; };
-		BE297D962E38AB13D557F81480FFFB1F /* MyLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLib-Info.plist"; sourceTree = "<group>"; };
-		E3B1E333C7DAE69E4B372D85FB0FBE92 /* Pods_ProyectoPrueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoPrueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB615E0A1F017037320BB6D8E41DBCC /* MyLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-umbrella.h"; sourceTree = "<group>"; };
+		BE7D4378685E4833DB74D2C394900A74 /* ProductTableViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ProductTableViewController.xib; path = MyLib/Classes/ProductTableView/ProductTableViewController.xib; sourceTree = "<group>"; };
+		E18D34DCBD019CF4FDC7EA3F31E1476E /* MyLib_Tests-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MyLib_Tests-Bridging-Header.h"; path = "Example/Tests/MyLib_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E3B1E333C7DAE69E4B372D85FB0FBE92 /* Pods_ProyectoPrueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProyectoPrueba.framework; path = "Pods-ProyectoPrueba.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E440DFDFA7FB09F10B5B278461C3E3E4 /* Pods-ProyectoPrueba-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProyectoPrueba-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E455A88493834861B277B4CE5F72EC7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBB90871D3134F1CC0AF6C1715CCB733 /* ShoppingCartTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShoppingCartTests.swift; path = Example/Tests/ShoppingCartTests.swift; sourceTree = "<group>"; };
 		F11D0841287DBE4A12B88F40FA65F004 /* MyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F83545F061170AA31C92C044E37E9F75 /* MyLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLib-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A838523C882FBF2D0B6079F6F866F203 /* Frameworks */ = {
+		8C23DCD5F03B04B893613D2F3BC35C77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				892A691ECBDDA120DE79814E1526A3D2 /* Foundation.framework in Frameworks */,
-				9F3C34EEC05506242CD4C08374A2D6F1 /* MyLib.framework in Frameworks */,
+				16F793006C583FE7EFE555D0516975C5 /* Foundation.framework in Frameworks */,
+				06ED0693425CB87C0CB659481DF316BE /* MyLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +124,16 @@
 			path = "Target Support Files/Pods-ProyectoPrueba";
 			sourceTree = "<group>";
 		};
+		0E58F9ACABE57DBE8A6A75C51AF868B2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E18D34DCBD019CF4FDC7EA3F31E1476E /* MyLib_Tests-Bridging-Header.h */,
+				7A1DC53B6F91A1EE320D8ABE7D048999 /* ProductTests.swift */,
+				EBB90871D3134F1CC0AF6C1715CCB733 /* ShoppingCartTests.swift */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
 		1DB0F30A4B429EADEAE8DD3FB2E49237 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,53 +159,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E77B949085D229217AE4A6CE2EBB02A /* Support Files */ = {
+		9160A1BAA3253DE34E5222A2BC23EB95 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15E47E56D377E51FBC038AAC8B99C790 /* MyLib.modulemap */,
-				A8CBDF84B18510E105B1B4C24E6AD710 /* MyLib-dummy.m */,
-				BE297D962E38AB13D557F81480FFFB1F /* MyLib-Info.plist */,
-				7FF103140C84E07687CF0499FD590091 /* MyLib-prefix.pch */,
-				F83545F061170AA31C92C044E37E9F75 /* MyLib-umbrella.h */,
-				435105114C10461E5B85D4185B9B4A5B /* MyLib-Unit-Tests-frameworks.sh */,
-				7BB6EB9CE570D5E0CC0B5DCBFA98FB7A /* MyLib-Unit-Tests-Info.plist */,
-				AACFAFC2D849CD26E7017B6DA2A3B82B /* MyLib-Unit-Tests-prefix.pch */,
-				5BC372D1CB76837DD9A19C6461531802 /* MyLib.debug.xcconfig */,
-				53F1207F1F47DDF29189F3EF6241C7DD /* MyLib.release.xcconfig */,
-				5CAA5909A9660F718A39A2F8D5D4E524 /* MyLib.unit-tests.debug.xcconfig */,
-				74D67FE5523ED4CC3E258DBA6D9883AE /* MyLib.unit-tests.release.xcconfig */,
+				62F1DB91513CB70403BB7901D16E5226 /* MyLib.modulemap */,
+				4B0755E2208E876585207C193420DD5C /* MyLib-dummy.m */,
+				7ABED9C978FF3C0D6CAE95ED35C55B44 /* MyLib-Info.plist */,
+				4B068EDCCAA330A9B56DDACD88075802 /* MyLib-prefix.pch */,
+				BDB615E0A1F017037320BB6D8E41DBCC /* MyLib-umbrella.h */,
+				65B21E64C2FE902DF52728586CA4208D /* MyLib-Unit-Tests-frameworks.sh */,
+				94D5A34E8430102A5E2B442D3558C709 /* MyLib-Unit-Tests-Info.plist */,
+				00C0083DBAF9C09747BFE722CFF707B4 /* MyLib-Unit-Tests-prefix.pch */,
+				61C9B6037B5D614DA6C868C27C22416B /* MyLib.debug.xcconfig */,
+				2FF1D4F497B91D5203B6191F8BE4A21F /* MyLib.release.xcconfig */,
+				87F3B155C8C2AD9CAF2F666946AB2655 /* MyLib.unit-tests.debug.xcconfig */,
+				B24945E9EEE349DD56ED73781A5CCCA0 /* MyLib.unit-tests.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MyLib";
 			sourceTree = "<group>";
 		};
-		6CE05CCDDB27A662CEE979827B355FF5 /* MyLib */ = {
-			isa = PBXGroup;
-			children = (
-				01B167FB4B3784393F8AD8B27C327645 /* Product.swift */,
-				0230846A75008AC8E4983B76BC44EBC5 /* ProductTableViewController.swift */,
-				58ECDBA8665004249C38A85F4CD269E3 /* ProductTableViewController.xib */,
-				4B3E4C5D27D8BE2618382965D3CE1932 /* ShoppingCart.swift */,
-				5E77B949085D229217AE4A6CE2EBB02A /* Support Files */,
-				BA427962FCE5A78743BF9D9C5C5C2719 /* Tests */,
-			);
-			path = MyLib;
-			sourceTree = "<group>";
-		};
 		9492C7ECE3EE0EF744F201750244BC40 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6CE05CCDDB27A662CEE979827B355FF5 /* MyLib */,
+				CFF858DB5DA306C2CC67EB25CA67F2B5 /* MyLib */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		BA427962FCE5A78743BF9D9C5C5C2719 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3F2FD9DDD63BAF734B8793B96C2061DA /* Tests.swift */,
-			);
-			name = Tests;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -203,6 +196,20 @@
 				ECC6AE527570884F3F98280A1C7D99BC /* Products */,
 				1DB0F30A4B429EADEAE8DD3FB2E49237 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CFF858DB5DA306C2CC67EB25CA67F2B5 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				61D53E9A8FB4240B324FF81A4365252A /* Product.swift */,
+				60D36C2C719DB4685E233BE6813F10F0 /* ProductTableViewController.swift */,
+				BE7D4378685E4833DB74D2C394900A74 /* ProductTableViewController.xib */,
+				1E372C608F49847200674BCDE1DB1611 /* ShoppingCart.swift */,
+				9160A1BAA3253DE34E5222A2BC23EB95 /* Support Files */,
+				0E58F9ACABE57DBE8A6A75C51AF868B2 /* Tests */,
+			);
+			name = MyLib;
+			path = MyLib;
 			sourceTree = "<group>";
 		};
 		ECC6AE527570884F3F98280A1C7D99BC /* Products */ = {
@@ -218,6 +225,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3DFE3760B8BFBE0028BE64D427CEE427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809F70632F144B6D40E6C8EA0192D3DA /* MyLib_Tests-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86F4CA3E1583693E2D8BB062C3BDAECB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,17 +254,18 @@
 /* Begin PBXNativeTarget section */
 		971C89324967E54570BED3320CAFDED4 /* MyLib-Unit-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8D9A52F8ED7DF801D9B7F74F981672F /* Build configuration list for PBXNativeTarget "MyLib-Unit-Tests" */;
+			buildConfigurationList = 89D089B5CD84D7A810BD3E0B3B716103 /* Build configuration list for PBXNativeTarget "MyLib-Unit-Tests" */;
 			buildPhases = (
-				598AE0595880AE3D9995E61FE9EF5959 /* Sources */,
-				A838523C882FBF2D0B6079F6F866F203 /* Frameworks */,
-				8EBC4793B65ED350409330E1B59647CA /* Resources */,
-				A4E4A9D87000F35BD30948DC5F64FEA0 /* [CP] Embed Pods Frameworks */,
+				CF0C50F4A608DA8939F27ECC0F13223A /* Sources */,
+				8C23DCD5F03B04B893613D2F3BC35C77 /* Frameworks */,
+				9494F91E7784FC94CB2893065B1BB036 /* Resources */,
+				3DFE3760B8BFBE0028BE64D427CEE427 /* Headers */,
+				3492078C746CCD27930BA9B2E46C9D18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0ABED9A352AC00A3CFA0C1E4D0612A20 /* PBXTargetDependency */,
+				F7D0221125EAB0BA1B8C4B4072D07F0E /* PBXTargetDependency */,
 			);
 			name = "MyLib-Unit-Tests";
 			productName = "MyLib-Unit-Tests";
@@ -286,7 +302,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8ED52E44A21BA5E5830787A6B1D558F0 /* PBXTargetDependency */,
+				90F3D3BB08680AEAA5C61CF96E3F22CF /* PBXTargetDependency */,
 			);
 			name = "Pods-ProyectoPrueba";
 			productName = "Pods-ProyectoPrueba";
@@ -330,7 +346,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EBC4793B65ED350409330E1B59647CA /* Resources */ = {
+		9494F91E7784FC94CB2893065B1BB036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +363,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A4E4A9D87000F35BD30948DC5F64FEA0 /* [CP] Embed Pods Frameworks */ = {
+		3492078C746CCD27930BA9B2E46C9D18 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,14 +383,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		598AE0595880AE3D9995E61FE9EF5959 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D50602C426CDC127009B36F7 /* Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63B1CA383BFBEC2DB3DFEE320C3ADB0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +392,15 @@
 				DFD7D431F17694A9F015DC80DDD59BEB /* ProductTableViewController.swift in Sources */,
 				77B66D5F8DD2126E35302E8F4B2FAC82 /* ProductTableViewController.xib in Sources */,
 				FE68C3F2B392B5718665EEB8C01E392C /* ShoppingCart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0C50F4A608DA8939F27ECC0F13223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AEA13A5B8899525DF805E2C00EC38C /* ProductTests.swift in Sources */,
+				23869652CDB35D85BE22F55540CB6627 /* ShoppingCartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,17 +415,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0ABED9A352AC00A3CFA0C1E4D0612A20 /* PBXTargetDependency */ = {
+		90F3D3BB08680AEAA5C61CF96E3F22CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLib;
 			target = D19070F549C404143C4444755161EC8C /* MyLib */;
-			targetProxy = E2D9242C90415F0AD770EF9EEF11AB65 /* PBXContainerItemProxy */;
+			targetProxy = 07149B991C83F63B4DF0C72200C85DAA /* PBXContainerItemProxy */;
 		};
-		8ED52E44A21BA5E5830787A6B1D558F0 /* PBXTargetDependency */ = {
+		F7D0221125EAB0BA1B8C4B4072D07F0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLib;
 			target = D19070F549C404143C4444755161EC8C /* MyLib */;
-			targetProxy = EFC62B320E99CF87F1AE5F40929C64AF /* PBXContainerItemProxy */;
+			targetProxy = 19EDFADC0DE3696ED914A0486733743E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -490,7 +507,7 @@
 		};
 		729F4FE0F743F41F18A343DB2396A6AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F1207F1F47DDF29189F3EF6241C7DD /* MyLib.release.xcconfig */;
+			baseConfigurationReference = 2FF1D4F497B91D5203B6191F8BE4A21F /* MyLib.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -654,7 +671,7 @@
 		};
 		C2655BFDA440721E68B788368064B41C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BC372D1CB76837DD9A19C6461531802 /* MyLib.debug.xcconfig */;
+			baseConfigurationReference = 61C9B6037B5D614DA6C868C27C22416B /* MyLib.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -687,9 +704,9 @@
 			};
 			name = Debug;
 		};
-		D85A2FB8F119210B77E3E8EED96DB784 /* Debug */ = {
+		CB15F0122040F40579E87FBAC79C2449 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CAA5909A9660F718A39A2F8D5D4E524 /* MyLib.unit-tests.debug.xcconfig */;
+			baseConfigurationReference = 87F3B155C8C2AD9CAF2F666946AB2655 /* MyLib.unit-tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = YES;
@@ -712,9 +729,9 @@
 			};
 			name = Debug;
 		};
-		F6205B988F0EB1294583C93DC63404F2 /* Release */ = {
+		F2C87EDD8A422675348305B24BDBBA29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74D67FE5523ED4CC3E258DBA6D9883AE /* MyLib.unit-tests.release.xcconfig */;
+			baseConfigurationReference = B24945E9EEE349DD56ED73781A5CCCA0 /* MyLib.unit-tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = YES;
@@ -764,11 +781,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8D9A52F8ED7DF801D9B7F74F981672F /* Build configuration list for PBXNativeTarget "MyLib-Unit-Tests" */ = {
+		89D089B5CD84D7A810BD3E0B3B716103 /* Build configuration list for PBXNativeTarget "MyLib-Unit-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D85A2FB8F119210B77E3E8EED96DB784 /* Debug */,
-				F6205B988F0EB1294583C93DC63404F2 /* Release */,
+				CB15F0122040F40579E87FBAC79C2449 /* Debug */,
+				F2C87EDD8A422675348305B24BDBBA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

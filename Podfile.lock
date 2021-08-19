@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   MyLib:
-    :commit: f166be65cc78387423ade801270ef5e425b9c689
+    :commit: c6199dd4606609f2f0d6b6e3b2a66b68e47988d6
     :git: https://github.com/alejandroCastillo7768/MyLib.git
 
 SPEC CHECKSUMS:
