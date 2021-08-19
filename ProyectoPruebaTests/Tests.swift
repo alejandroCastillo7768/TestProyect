@@ -7,10 +7,9 @@
 
 import XCTest
 
-
 class ProductTest: XCTestCase {
     
-    let valueToPrint: String? = "Hello World!!!"
+    let value: String? = "Hello World"
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,8 +31,12 @@ class ProductTest: XCTestCase {
         }
     }
     
-    func testPrintLine() {
-        XCTAssert(valueToPrint != nil)
+    func testStringFromValue() {
+        XCTAssertEqual(value, "Hello World")
+    }
+    
+    func testValueFromValue() {
+        XCTAssert(value != nil)
     }
 
 }

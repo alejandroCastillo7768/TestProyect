@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D5A0F905A191C270A08C4CE /* Pods_ProyectoPrueba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7662F8B29C1E05C736A662 /* Pods_ProyectoPrueba.framework */; };
-		D5918CCA26CC546600730C02 /* ProductTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5571CD126CC4F9C006B44BA /* ProductTest.swift */; };
-		D5918CD026CC5A3600730C02 /* ProyectoPruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5918CC226CC546000730C02 /* ProyectoPruebaTests.swift */; };
+		D5918CCA26CC546600730C02 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5571CD126CC4F9C006B44BA /* Tests.swift */; };
 		D5C69EA426CC0DD80057C3CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C69EA326CC0DD80057C3CF /* AppDelegate.swift */; };
 		D5C69EAD26CC0DD90057C3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C69EAC26CC0DD90057C3CF /* Assets.xcassets */; };
 		D5C69EB026CC0DD90057C3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C69EAE26CC0DD90057C3CF /* LaunchScreen.storyboard */; };
@@ -31,9 +30,8 @@
 /* Begin PBXFileReference section */
 		9C4356D61D6671E883EE46E1 /* Pods-ProyectoPrueba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPrueba.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoPrueba/Pods-ProyectoPrueba.debug.xcconfig"; sourceTree = "<group>"; };
 		AC7662F8B29C1E05C736A662 /* Pods_ProyectoPrueba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoPrueba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5571CD126CC4F9C006B44BA /* ProductTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTest.swift; sourceTree = "<group>"; };
+		D5571CD126CC4F9C006B44BA /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		D5918CC026CC546000730C02 /* ProyectoPruebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoPruebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5918CC226CC546000730C02 /* ProyectoPruebaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoPruebaTests.swift; sourceTree = "<group>"; };
 		D5918CC426CC546000730C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C69EA026CC0DD80057C3CF /* ProyectoPrueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPrueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C69EA326CC0DD80057C3CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +74,7 @@
 		D5918CC126CC546000730C02 /* ProyectoPruebaTests */ = {
 			isa = PBXGroup;
 			children = (
-				D5918CC226CC546000730C02 /* ProyectoPruebaTests.swift */,
+				D5571CD126CC4F9C006B44BA /* Tests.swift */,
 				D5918CC426CC546000730C02 /* Info.plist */,
 			);
 			path = ProyectoPruebaTests;
@@ -111,7 +109,6 @@
 				D5C69EAE26CC0DD90057C3CF /* LaunchScreen.storyboard */,
 				D5C69EB126CC0DD90057C3CF /* Info.plist */,
 				D5C69EBB26CC0F180057C3CF /* Main */,
-				D5C69EBC26CC0F1D0057C3CF /* Tests */,
 			);
 			path = ProyectoPrueba;
 			sourceTree = "<group>";
@@ -123,14 +120,6 @@
 				D5C69EB826CC0DF40057C3CF /* InitialViewController.xib */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		D5C69EBC26CC0F1D0057C3CF /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				D5571CD126CC4F9C006B44BA /* ProductTest.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 		D8AC34EF59EAA7C74092C62B /* Pods */ = {
@@ -286,8 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5918CCA26CC546600730C02 /* ProductTest.swift in Sources */,
-				D5918CD026CC5A3600730C02 /* ProyectoPruebaTests.swift in Sources */,
+				D5918CCA26CC546600730C02 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
