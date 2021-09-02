@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MyLib
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,11 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     private func setupMainFlowApp() {
-        let initialVC = InitialViewController()
-        let mainViewController = UINavigationController(rootViewController: initialVC)
+        let productListVC = ProductListViewController(productsList: Mock.Products.getProductsViewModel())
+        let mainViewController = UINavigationController(rootViewController: productListVC)
+        
+        let InitialVC = UINavigationController(rootViewController: InitialViewController())
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = mainViewController
+        window?.rootViewController = InitialVC
         window?.makeKeyAndVisible()
     }
 }

@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/ModuleTest/ModuleTest-Unit-Tests-resources.sh
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/add.imageset/add.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/add_money.imageset/add_money.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/alert.imageset/alert.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/ATM.imageset/ATM.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/CVV-icon.imageset/CVV-icon.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/Default-Landscape.imageset/Default-Landscape@1x.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/loader.imageset/loader.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/pay_bill.imageset/pay_bill.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/preinicio1.imageset/preinicio1.png
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/preinicio2.imageset/preinicio2.jpg
+${PODS_ROOT}/ModuleTest/ModuleTest/Resources/Assets.xcassets/preinicio3.imageset/preinicio3.jpg
